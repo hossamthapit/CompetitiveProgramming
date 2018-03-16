@@ -22,7 +22,7 @@ int main()
 
     ll e = (1<<x);
 
-    for( ;e--;e){
+    for( ;e--;){
         bts = e ;
         if(bts.count()<2)continue;
         s = bts.to_string();
