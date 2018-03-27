@@ -23,9 +23,8 @@ int main()
             cin >> v[i];
 
         for(int i = 1 ; i <= n ; i++){
-            if( i > egg ) break ;
             s += v[i-1] ;
-            if( s > gram ) break ;
+            if( s > gram || i > egg ) break ;
             c++ ;
         }
        cout << "Case " << y << ": " << c << endl;
