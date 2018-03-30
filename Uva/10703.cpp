@@ -40,13 +40,7 @@ int main()
     for( int i = 1 ; i <= h ; i++ )
         for( int k = 1 ; k <= w ; k++ )
             if( !v[i][k] ) c++ ;
-/**
-    for(int i = 1 ; i <= h ; i++ ){
-        for(int k = 1 ; k <= w ; k++ )
-            cout << v[i][k] <<" ";
-    cout << endl;
-    }
-**/
+
     if(c==0)cout<< "There is no empty spots." <<endl;
     else if(c==1)cout<< "There is one empty spot." <<endl;
     else cout<< "There are "<< c << " empty spots." <<endl;
