@@ -8,9 +8,9 @@ struct node{
 };
 
 class stackk{
-
-    public:
+    private:
         node *topptr = nullptr;
+    public:
         datatype top(){
             if(!isempty()){
                 return topptr->value;
