@@ -34,6 +34,5 @@ int main(){file();
             cnt=0;
         }
     }
-    ans *= max(cnt+1,1LL);
     cout << ans << endl;
 }
